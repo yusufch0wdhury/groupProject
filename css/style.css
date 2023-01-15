@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+@media screen and (min-width: 480px){
+    body{
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .topBar{
+        background-color: #1C2340;
+        height: 100px;
+    }
+
+    .topBar img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+    }
+
+    .teamSection{
+        background-color: rgba(240, 218, 197, 0.9);
+        height: 500px;
+    }
+
+    .teamSection h2{
+        margin: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .teamIcons{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .teamIcons img{
+        padding-top: 50px;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .teamIcons img:hover{
+        transition: width 0.1s;
+        width: 55%;
+    }
+
+    .teamIcons h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .projectSection{
+        color: #ffffff;
+        background-color: #1C2340;
+        height: 500px;
+    }
+
+    .projectSection h2{
+        margin: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .projectSection img{
+        padding-top: 20px;
+        display: block;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    .projectSection h3{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .aboutSection{
+        background-color: rgba(240, 218, 197, 0.9);
+        height: 750px;
+    }
+
+    .aboutSection p{
+        margin: 0px 100px 0px 100px;
+        padding-top: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .map iframe{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 500px;
+    }
+
+    .footer{
+        background-color: #1C2340;
+        height: 80px;
+    }
+    
+    .footer img{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .topBar{
+        background-color: #1C2340;
+        height: 100px;
+    }
+
+    .topBar img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 23%;
+    }
+
+    .teamSection{
+        background-color:rgba(240, 218, 197, 0.9);
+        height: 1500px;
+    }
+
+    .teamSection h2{
+        margin: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+
+    .teamIcons img{
+        padding-top: 50px;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .teamIcons h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .projectSection{
+        color: #ffffff;
+        background-color: #1C2340;
+        height: 350px;
+    }
+
+    .projectSection h2{
+        margin: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .projectSection img{
+        padding-top: 20px;
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    .projectSection h3{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .aboutSection{
+        background-color: rgba(240, 218, 197, 0.9);
+        height: 750px;
+    }
+
+    .aboutSection p{
+        margin: 0px 100px 0px 100px;
+        padding-top: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .map iframe{
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer{
+        background-color: #1C2340;
+        height: 80px;
+    }
+    
+    .footer img{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+    }
+}

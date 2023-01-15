@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>MZ</title>
+
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="header">
+        <ul>
+          <li><a class="active" href="#home">Mahriya Zahid</a></li>
+          <li><a class="active" href="https://mahriya13.github.io/PersonalProfileMZ/">Github Link</a></li>
+        </ul>
+      </div>
+      <div class="grid-item">
+      </div>
+      <div class="grid-item">
+        <img src="Images\pexels-julia-larson-6113381.jpg"alt="Profile Picture" width="750" height="1000">
+      </div>
+      <div class="grid-item">
+        <h1>Hello</h1>
+        <hr>
+        <p>Hi! I'm Mahriya Zahid, and <b>welcome</b> to our team! Get to know a little bit about me by navigating the buttons below.</p>
+        <div class="btn-group">
+          <a href="#About">
+            <button class="button">ABOUT</button>
+          </a>
+          <br>
+
+<a href="#skills">
+          <button class="button">SKILLS & HOBBIES</button> </a>
+          <br>
+          <a href="#coursework1">
+          <button class="button">COURSEWORK 1</button></a>
+          <br>
+          <a href="#coursework2">
+          <button class="button">COURSEWORK 2</button></a>
+        </div>
+      </div>
+      <div class="grid-item">
+        <a name="About">
+          <h1>About Me</h1>
+          <p>I'm currently a student at City, University of London, studying a Computer Science degree. As of right now, I am in my foundation year, in which I attend lectures and seminars.
+            Here, I gain knowledge in my different modules: Introduction to Progamming with Python, Web Devlopment, Employabilty and Tranfserable Skills, Introduction to Probablity and Statistics.
+            I am currently employed as a waitress, but am an aspiring software developer.</p>
+            <p>As a 18-year-old studn I possess a strong aptitude for problem-solving and logical thinking. My passion for technology and programming has led me to excel in my studies,
+            and I am always eager to learn more about the latest advancements in the field. </p>
+      </div>
+      <div class="grid-item">
+        <div class="image-1">
+        <img src="Images\pexels-thomas-hobiger-3403295.jpg" alt="Library" width="750" height="1000">
+      </div></div>
+
+
+      <div class="grid-item">
+        <a name="skills">
+          <h1> Skills & Hobbies </h1>
+          <p> Outside of my studies, I am a veracious reader, my tastes spanning from the fantasy genre to romance novels. So it comes as no surprise,
+            I love enudlging in creative writing in my free time, dabbling in poetry and pose. Furthermore, I love bike riding around my town and spending
+            time with my family and friends and documenting all these fun times with photos. </p>
+
+    <ul>
+    <li>Communication skills, written communication</li>
+    <li>Attention to detail</li>
+    <li>Can use video editing software</li>
+    <li>Quick at picking up new skills, adaptable in new environments</li>
+    <li>Computer skills - coding (Python, HTML, CSS, PHP, MYSQLi)</li>
+    <li>IT skills (Well versed in using Microsoft Word, Excel, Powerpoint, as well as other social media applications)</li>
+
+    </ul>
+
+</div>
+<div class="grid-item">
+  <img src="Images\pexels-hosana-cruz-4558167.jpg"alt="Study" width="750" height="1000">
+</div>
+  <div class="grid-item">
+
+    <a name="coursework1">
+      <a href="https://mahriya13.github.io/Coursework1/"><h1>Coursework 1</h1></a>
+      <p> For my first coursework project, I had to create a website which included a home page, a CV page, a "Places I have vistsed page" and a page that was my personal choice,
+        where I chose to display my favourite books I've read. You can click on the link above to check it out! </p>
+  </div>
+
+  <div class="grid-item">
+    <a name="coursework2">
+      <a href="https://mahriya13.github.io/Courseworks2/"><h1>Coursework 2</h1></a>
+      <p> For my second coursework project, I had to recreate a website called <a href="https://luca.restaurant/">Luca</a> You can click on the link above to see my attempt!</p>
+</div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// used W3 schools to make the js for this button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>

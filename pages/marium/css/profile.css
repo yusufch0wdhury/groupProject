@@ -1,0 +1,195 @@
+body {
+  background-color: #144333;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+}
+ 
+.footer {
+  margin-left: 20px;
+}
+ 
+.footer a:link, a:visited, a:hover {
+  color: hsl(204deg 9% 78%);
+  text-decoration: none;
+}
+ 
+.footer a {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+.footer a {
+  justify-content: space-around;
+  margin: 0 8px;
+}
+ 
+.title {
+  text-align: center;
+  margin-top: 40px;
+}
+ 
+.title p {
+  font-size: 28px;
+  margin: 0 8px;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+  color:  hsl(204deg 9% 78%);
+  text-align: center;
+}
+ 
+.links {
+  text-align: center;
+}
+ 
+.links a:link, a:visited, a:hover {
+  color:  hsl(204deg 9% 78%);
+  text-decoration: none;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+  display: inline-block;
+  margin: 0 15px;
+}
+ 
+li {
+  display: inline-block;
+  text-align: center;
+}
+ 
+.container {
+  align-items: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+  margin-top: -100px;
+  margin-right: 20px;
+}
+ 
+.container .button {
+  width: 150px;
+  border: 1px solid black;
+  background: hsl(204deg 9% 78%);
+  padding: 10px 20px;
+  font-size: 13px;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+}
+ 
+.container .button:hover {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}
+ 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+ 
+.center img {
+  height: 10%;
+  width: 80%;
+}
+ 
+.title h2 {
+  color:  hsl(204deg 9% 78%);
+  font-size: 25px;
+  width: 1130px; 
+  margin: 30px auto;
+  align-items: center;
+} 
+ 
+#container {
+  display: flex;
+  background-color: #144333;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+ 
+#container div {
+  background-color: #144333;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+}
+ 
+#card {
+  border: 1px #306754;
+  background: none;
+  padding: 10px 20px;
+  font-size: 13px;
+ 
+}
+ 
+h3 {
+  color: hsl(204deg 9% 78%);
+  font-size: 30px;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+  margin: 10px;
+}
+ 
+p {
+  color: white;
+  font-size: 18px;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+  margin: 10px;
+}
+ 
+#card #button {
+  border: 2px solid transparent;
+  background-color: hsl(204deg 9% 78%);
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+}
+ 
+#button :hover {
+  background: white;
+  color: black;
+  padding: 10-x 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+ 
+.line {
+  border: 0.5px solid white;
+}
+ 
+.title2 {
+  color:  hsl(204deg 9% 78%);
+  font-family: "proxima-nova", "Helvetica Neue" sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+ 
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+ 
+.container2 img {
+  float: left;
+  height: 270px;
+  padding-top: 30px;
+}
+ 
+.container2 h3{
+  color:  hsl(204deg 9% 78%);
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+ 
+.container2 p{
+  color: white;
+  font-size: 18px;
+}
+ 
+.text2 {
+  float: right;
+  font-size: 20px;
+  padding-left: 90px;
+  padding-right: 30px;
+}
